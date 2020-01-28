@@ -1,0 +1,16 @@
+
+>squid:S1659"'Declare "min_index" on a separate line.(‰˜âÔ
+Tsquid:S1197"8Move the array designator from the variable to the type.(É ±åúÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(É ±åúÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(Şò¦úûÿÿÿÿ
+Osquid:S1197$"8Move the array designator from the variable to the type.(–ÄÂ
+Osquid:S1197&"8Move the array designator from the variable to the type.(×ÒÊ 
+Osquid:S1197+"8Move the array designator from the variable to the type.(õŒĞä
+Nsquid:S1197S"8Move the array designator from the variable to the type.(ƒœÚA
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÁªŠ¶ùÿÿÿÿ
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(ğš“9
+Esquid:S1125")Remove the literal "false" boolean value.(ƒåËîûÿÿÿÿ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰˜âÔ
+zsquid:UselessImportCheck"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ

@@ -1,0 +1,14 @@
+
+Fsquid:S2129"#Remove this "Character" constructor(üíà„şÿÿÿÿ8Ú¡ˆïÕ-
+Ssquid:S2209"5Change this instance-reference to a static reference.(ª¼æ€8Ú¡ˆïÕ-
+Fsquid:S2129 "#Remove this "Character" constructor(Îô³Âøÿÿÿÿ8Ú¡ˆïÕ-
+Xsquid:S2209 "5Change this instance-reference to a static reference.(Îô³Âøÿÿÿÿ8Ú¡ˆïÕ-
+Ksquid:S1125"(Remove the literal "true" boolean value.(€Çûÿÿÿÿ8Ú¡ˆïÕ-
+dsquid:S3027"FPut single-quotes around '_' to use the faster "indexOf(char)" method.(€É¾š8Ú¡ˆïÕ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8Ú¡ˆïÕ-
+Fsquid:S2129"#Remove this "Character" constructor(Ì¬¬ùÿÿÿÿ8Ú¡ˆïÕ-
+Tsquid:S1854"6Remove this useless assignment to local variable "cc".(¨ß¶´8Ú¡ˆïÕ-
+[
+squid:S106+"9Replace this use of System.out or System.err by a logger.(®Ú¯¼ùÿÿÿÿ8Ú¡ˆïÕ-
+Esquid:S1481"'Remove this unused "cc" local variable.(¨ß¶´8Ú¡ˆïÕ-

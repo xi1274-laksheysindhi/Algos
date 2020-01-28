@@ -1,0 +1,15 @@
+
+:squid:S3010"Remove this assignment of "V".(¾´Œúÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(êï½ûÿÿÿÿ
+Tsquid:S1197*"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
+hsquid:S3008
+"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã€°Íşÿÿÿÿ
+Csquid:S1444
+"'Make this "public static V" field final(Ã€°Íşÿÿÿÿ
+O
+squid:S1066"9Replace this use of System.out or System.err by a logger.(¨İ§
+T
+squid:S1068"9Replace this use of System.out or System.err by a logger.(Ì±Íäùÿÿÿÿ
+@squid:S1125")Remove the literal "false" boolean value.(’³¢„
+€"squid:ClassVariableVisibilityCheck
+"MMake V a static final constant or non-public and provide accessors if needed.(Ã€°Íşÿÿÿÿ

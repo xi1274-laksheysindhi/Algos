@@ -1,0 +1,10 @@
+
+Bsquid:S1481"&Remove this unused "n" local variable.(ì¬âÑüÿÿÿÿ
+Wsquid:S1854";Remove this useless assignment to local variable "dishes2".(¨­æ­üÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(›õšÌùÿÿÿÿ
+Qsquid:S1854"5Remove this useless assignment to local variable "n".(ì¬âÑüÿÿÿÿ
+N
+squid:S106	"9Replace this use of System.out or System.err by a logger.(¥‘–M
+Hsquid:S1481",Remove this unused "dishes2" local variable.(¨­æ­üÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(¨­æ­üÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(¿ð€“øÿÿÿÿ

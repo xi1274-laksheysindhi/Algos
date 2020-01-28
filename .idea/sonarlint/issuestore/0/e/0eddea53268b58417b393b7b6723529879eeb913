@@ -1,0 +1,10 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(šÑö€ûÿÿÿÿ
+bsquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(Ö«´ò
+bsquid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(‹¡Ñ
+O
+squid:S106&"9Replace this use of System.out or System.err by a logger.(äí¹Ø
+Ksquid:S1481"/Remove this unused "binaryTree" local variable.(é¡ª²øÿÿÿÿ
+Gsquid:S1481 "0Remove this unused "binaryTree1" local variable.(¬ÌÕó
+Vsquid:S1854 "?Remove this useless assignment to local variable "binaryTree1".(¬ÌÕó
+Zsquid:S1854">Remove this useless assignment to local variable "binaryTree".(é¡ª²øÿÿÿÿ

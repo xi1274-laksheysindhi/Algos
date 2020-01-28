@@ -1,0 +1,19 @@
+
+>squid:S1659"'Declare "min_index" on a separate line.(‰˜âÔ
+Tsquid:S1197"8Move the array designator from the variable to the type.(’„™ÿÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(’„™ÿÿÿÿÿ
+Tsquid:S1197 "8Move the array designator from the variable to the type.(öƒŞÙøÿÿÿÿ
+Tsquid:S1197 "8Move the array designator from the variable to the type.(öƒŞÙøÿÿÿÿ
+Tsquid:S1197)"8Move the array designator from the variable to the type.(æá¦¾üÿÿÿÿ
+Osquid:S1197,"8Move the array designator from the variable to the type.(¿èå–
+Nsquid:S1197/"8Move the array designator from the variable to the type.(Ğ‹Îk
+Osquid:S11972"8Move the array designator from the variable to the type.(ù·äò
+Osquid:S1197e"8Move the array designator from the variable to the type.(ò¤è
+T
+squid:S106""9Replace this use of System.out or System.err by a logger.(îÜ£Æûÿÿÿÿ
+N
+squid:S106$"9Replace this use of System.out or System.err by a logger.(§·›^
+Esquid:S1125")Remove the literal "false" boolean value.(âµ¦Ëúÿÿÿÿ
+Esquid:S1125P")Remove the literal "false" boolean value.(„š«ûÿÿÿÿ
+isquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰˜âÔ
+zsquid:UselessImportCheck"QRemove this unnecessary import: java.lang classes are always implicitly imported.(ãø©Æşÿÿÿÿ
