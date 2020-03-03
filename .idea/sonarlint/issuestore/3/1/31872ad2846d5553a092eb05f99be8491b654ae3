@@ -1,10 +1,10 @@
 
-;squid:S1659"Declare "j" on a separate line.(Ìá¡†üÿÿÿÿ
-Tsquid:S1197"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
-Osquid:S1197"8Move the array designator from the variable to the type.(Øçª
-[squid:S1197"8Move the array designator from the variable to the type.(®·¥ıÿÿÿÿ8•ÁÌÄß-
-Dsquid:S1659"!Declare "max" on a separate line.(Ìá¡†üÿÿÿÿ8ßÌÔÄß-
-O
-squid:S106#"9Replace this use of System.out or System.err by a logger.(Ñ«¦ã
 Ksquid:S1481"(Remove this unused "max" local variable.(Ìá¡†üÿÿÿÿ8ßÌÔÄß-
 Tsquid:S1197!"8Move the array designator from the variable to the type.(ÊÒ”§ûÿÿÿÿ
+;squid:S1659"Declare "j" on a separate line.(Ìá¡†üÿÿÿÿ
+Tsquid:S1197"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
+Dsquid:S1659"!Declare "max" on a separate line.(Ìá¡†üÿÿÿÿ8ßÌÔÄß-
+[squid:S1197"8Move the array designator from the variable to the type.(®·¥ıÿÿÿÿ8•ÁÌÄß-
+O
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Ñ«¦ã
+Osquid:S1197"8Move the array designator from the variable to the type.(Øçª
