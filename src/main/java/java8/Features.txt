@@ -1,0 +1,186 @@
+Topics of Java 8
+
+-> Lambda expressions
+-> defaut method in interface
+-> Functional Interface
+-> static method in interface
+-> Functions
+
+-> Consumer
+-> Supplier
+-> Predicate
+-> :: Method and constructor
+
+-> Optional Interface
+-> Streams
+
+Lambda expressions
+ -> Its anonymous(nameless) function without return type or without modifiers
+
+ -> To enable functional programming in java
+ -> Write more readable and maintainable code
+ -> To use api easily and effectively
+ -> To enable parallel programming
+
+
+
+
+ Functional Interface
+ -> SAM -> Interface which contains single abstract methods
+ -> default and static methods are also allowed
+ mention @FunctionalInterface -> it is not mandatory but in case we are doing any mistake compiler will not let us do
+
+Functional Interface already present in java
+
+Runnable ===> run()
+Callable ===> call()
+Comparable ==> compareTo()
+
+
+ -------------------------------
+
+ Functional Interface wrt to Inheritance
+
+
+
+
+
+Anonymous inner class is more powerful than Lambda expressions as
+with Lambda expressions we can provide implementation to single abstract method but with anonymous inner class we can provide implementation to multiple abstract methods.
+
+
+Anonymous inner class can extend a normal class
+Anonymous inner class can extend an abstract class
+Anonymous inner class can implement an interface which contains any number of abstract methods
+
+Lambda Expression can implement an interface which contains single abstract method(FI)
+
+Every method inside interface is always : public and abstract till 1.8
+in 1.8 default + static methods
+
+Variables
+public static final
+
+
+Default method | Virtual Extension Method | Defender Method
+
+Object class methods we cant implement as default methods in interface
+
+Static method of interface not available to child class by default.
+
+public static void main method can be delcared inside an interface after 1.8 v
+
+Why static methods added to interface in 1.8V coz if we have 10 or more static functions we need not declare inside class
+we can use interface for this. performace and memory will be saved
+
+For utility functions static methods in interface should be used.
+
+
+Predicate -> For conditional if else we can use predicate(FI) has test method we can provide implementation to that based on condition it will return true or false
+
+method is "test"
+Predicate Joining
+
+p1.and(p2)
+p1.or(p2)
+p1.negate(p1)
+
+Functions ->  return type anything except boolean then use function
+method is "apply"
+
+function chaining
+
+f1 will be executed then f2
+f1.andThen(f2).apply(t);
+f2 will be executed then f1
+f1.compose(f2).apply(t);
+
+
+Consumer -> when no output is expected it doesnot return anything it consumes
+method is "accept"
+
+Supplier -> when there is no input but output.
+
+
+BiPredicate --> 2 input are given to predicate
+
+Types of Predicate ->
+
+IntPredicate
+LongPredicate
+DoublePredicate
+
+DoubleFunction -> can take double as input  return type can be anytype
+IntFunction -> can take int as input  return type can be anytype
+LongFunction -> can take long as input  return type can be anytype
+
+DoubleToIntFunction -> can take double as input  return type int
+(Method name is ) applyAsInt
+
+
+DoubleToLongFunction -> can take double as input  return type Long
+(Method name is ) applyAsLong
+
+
+IntToDoubleFunction -> applyAsDouble()
+LongToDoubleFunction ->
+
+------------------
+
+ObjIntConsumer<T> One type Int other can be any type
+ObjLongConsumer<T> One type Long other can be any type
+
+
+----------------------------
+
+BooleanSupplier
+ boolean getAsBoolean()
+
+ IntSupplier
+int getAsInt()
+
+ LongSupplier
+long getAsLong()
+
+
+DoubleSupplier
+double getAsDouble()
+
+
+--------------------------------
+****** ********************************************************************
+
+If input and output are same use UnaryOperator<Integer>
+It enhances prerformance
+
+UnaryOperator is child of Function
+
+IntUnaryOperator
+LongUnaryOperator
+DoubleUnaryOperator
+
+BinaryOperator
+
+IntBinaryOperator
+LongBinaryOperator
+DoubleBinaryOperator
+
+It is child of BiFunction
+*************************************************************************
+
+
+Method Reference
+
+Return type can be diffrent
+but input parameters should be of same type in case of method reference
+
+If impelmentation is already available to reuse that implementaion then we can go for Method refrence
+
+Test::m1 --> for static methods
+
+Test t1 = new Test();
+t1::m1 --> for instance methods
+
+Constructor Reference
+
+Test::new

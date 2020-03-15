@@ -1,7 +1,6 @@
 package algos.graphs;
 
 import java.util.LinkedList;
-import java.util.List;
 
 public class GraphRepresentation {
 

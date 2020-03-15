@@ -3,7 +3,7 @@ package algos.search;
 public class BinarySearch {
     private static int search(int[] input, int element, int start, int end) {
         int mid = (start + end) / 2;
-        if(start != end) {
+        if (start != end) {
             if (input[mid] == element) {
                 return mid;
             }
