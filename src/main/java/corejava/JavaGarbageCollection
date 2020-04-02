@@ -1,0 +1,107 @@
+Info Source https://www.geeksforgeeks.org/garbage-collection-java/
+
+In Java, the programmer need not to care for all those objects which are no longer in use.
+Garbage collector destroys these objects.
+
+Garbage collector is best example of DEMON thread as it is always running in background.
+
+Main objective of Garbage Collector is to free heap memory by destroying UNREACHABLE OBJECTS.
+
+UNREACHABLE OBJECT : An object is said to be unreachable iff it doesn’t contain any reference to it.
+
+
+
+WAYS TO REQUEST GARBAGE COLLECTOR
+
+
+System.gc()
+Runtime.getRuntime().gc()
+
+There is no guarantee that any one of above two methods will definitely run Garbage Collector.
+
+
+WAYS TO MAKE OBJECT AVAILABLE FOR GC
+
+Nullifying the reference variable
+
+
+
+Here i was poning to Integer Object but when we did i = null so that object has no refrence and ready for garbage collection
+Integer i = new Integer(4);
+// the new Integer object is reachable  via the reference in 'i'
+i = null;
+// the Integer object is no longer reachable.
+
+
+
+Re-assigning the reference variable
+
+Student s1 = new Student();
+Student s2 = new Student();
+
+when if we do
+// then the object previously created where s1 was pointing will be gone.
+s1 = new Student();
+
+
+
+Object created inside method
+
+When we create Objects inside methods. After method execution is completed the Object is eligible for Garbage collection.
+
+Island of Isolation
+
+Object 1 references Object 2 and Object 2 references Object 1.
+Neither Object 1 nor Object 2 is referenced by any other object.
+That’s an island of isolation.
+
+
+
+
+public class Test
+{
+    Test i;
+    public static void main(String[] args)
+    {
+        Test t1 = new Test();
+        Test t2 = new Test();
+
+        // Object of t1 gets a copy of t2
+        t1.i = t2;
+
+        // Object of t2 gets a copy of t1
+        t2.i = t1;
+
+        // Till now no object eligible
+        // for garbage collection
+        t1 = null;
+
+        //now two objects are eligible for
+        // garbage collection
+        t2 = null;
+
+        // calling garbage collector
+        System.gc();
+
+    }
+
+    @Override
+    protected void finalize() throws Throwable
+    {
+        System.out.println("Finalize method called");
+    }
+}
+
+--------------------------------------------------------------
+
+FINALIZATION
+
+Just before destroying an object, Garbage Collector calls finalize() method on the object to perform cleanup activities. Once finalize() method completes, Garbage Collector destroys that object.
+finalize() method is present in Object class with following prototype.
+
+
+protected void finalize() throws Throwable
+
+
+The finalize() method called by Garbage Collector not JVM.
+Although Garbage Collector is one of the module of JVM.

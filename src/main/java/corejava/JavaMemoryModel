@@ -1,0 +1,72 @@
+Info source http://tutorials.jenkov.com/java-concurrency/java-memory-model.html
+
+The Internal Java Memory Model
+
+
+THREAD STACK
+
+Each thread running in the Java virtual machine has its own thread stack.
+The thread stack contains information about what methods the thread has called to reach the current point of execution.
+I will refer to this as the "call stack". As the thread executes its code, the call stack changes.
+
+The thread stack also contains all local variables for each method being executed (all methods on the call stack)
+A thread can only access it's own thread stack.
+Local variables created by a thread are invisible to all other threads than the thread who created it.
+
+All local variables of primitive types ( boolean, byte, short, char, int, long, float, double) are fully stored on the thread stack and are thus not visible to other threads.
+
+
+HEAP MEMORY
+
+The heap contains all objects created in your Java application, regardless of what thread created the object.
+This includes the object versions of the primitive types (e.g. Byte, Integer, Long etc.).
+It does not matter if an object was created and assigned to a local variable, or created as a member variable of another object, the object is still stored on the heap.
+
+
+  Thread Stack for all threads related data
+  Heap memory for storing all objects.
+
+
+Hardware Memory Architecture
+
+
+     CPU have Cpu Registers talking to CPU cache Memory and One common shared memory RAM- Main Memory
+
+
+
+A modern computer often has 2 or more CPUs in it.
+Some of these CPUs may have multiple cores too. The point is,
+that on a modern computer with 2 or more CPUs it is possible to have more than one thread running simultaneously.
+ Each CPU is capable of running one thread at any given time.
+ That means that if your Java application is multithreaded, one thread per CPU may be running simultaneously (concurrently) inside your Java application.
+
+Each CPU contains a set of registers which are essentially in-CPU memory.
+ The CPU can perform operations much faster on these registers than it can perform on variables in main memory.
+That is because the CPU can access these registers much faster than it can access main memory.
+
+
+
+
+The CPU can access its cache memory much faster than main memory,
+but typically not as fast as it can access its internal registers.
+So, the CPU cache memory is somewhere in between the speed of the internal registers and main memory.
+
+
+Typically, when a CPU needs to access main memory it will read part of main memory into its CPU cache.
+It may even read part of the cache into its internal registers and then perform operations on it.
+When the CPU needs to write the result back to main memory it will flush the value from its internal register to the cache memory, and at some point flush the value back to main memory.
+
+The values stored in the cache memory is typically flushed back to main memory when the CPU needs to store something else in the cache memory.
+The CPU cache can have data written to part of its memory at a time, and flush part of its memory at a time.
+It does not have to read / write the full cache each time it is updated.
+Typically the cache is updated in smaller memory blocks called "cache lines".
+ One or more cache lines may be read into the cache memory, and one or mor cache lines may be flushed back to main memory again.
+
+
+
+
+INCONSISTENCY PROBLEM CAUSED WHEN 2 OR MORE THREAD TRY WORKING
+ON ONE OBJECT AS MAY BE THE CHANGES DONE BY ONE THREAD ARE
+STILL IN CPU REGISTERS OR CPU CACHE MEMORY BUT NOT FLOWN TO MAIN MEMORY OR SHARED MEMORY
+SO WE NEED TO FLOW USE SYNCHRONIZED AND VOLATILE WITH THEM WHEN WE USE VOLATILE CHANGES DIRECTLY MOVE TO SHARED MEMORY
+AND USING SYNCHRONIZED ONLY ONE THREAD BE ABLE TO ACT ON METHOD WHERE OBJECT IS BENING CHANGED.
