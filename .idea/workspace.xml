@@ -7,6 +7,7 @@
     <list default="true" id="170593eb-b239-4751-b23a-4cddfa082a64" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/Algos.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/array/RemoveDuplicatesfromSortedArray26.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/corejava/generics/WildcardClass.java" afterDir="false" />
@@ -246,6 +247,15 @@
       <change beforePath="$PROJECT_DIR$/target/classes/string/ToLowerCase709.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/ToLowerCase709.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/string/UniqueEmailAddresses929.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/UniqueEmailAddresses929.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/string/UniqueMorseCodeWords804.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/string/UniqueMorseCodeWords804.class" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/binarytree/BinaryTreePath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/binarytree/BinaryTreePath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Practice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/binarytree/BinaryTreePath.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/binarytree/BinaryTreePath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/binarytree/Node6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/binarytree/Node6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/linkedlist/IntersectionofTwoLinkedLists160.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linkedlist/IntersectionofTwoLinkedLists160.class" afterDir="false" />
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -374,7 +384,11 @@
     <option name="width" value="650" />
     <option name="height" value="555" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1oYUqcSsS9F1tAlBnrZe50hchBN" />
+=======
+  <component name="ProjectId" id="1tNWVJevbOV8I4Ioja7jl26i0Fz" />
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -415,11 +429,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5574713" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -430,20 +451,42 @@
       <recent name="$PROJECT_DIR$/src/main/java/designpatterns" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.Child">
     <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Child" />
       <module name="Algos" />
+=======
+  <component name="RunManager" selected="Application.ArrayPartitionI561">
+    <configuration name="ArrayPartitionI561" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ArrayPartitionI561" />
+      <module name="Algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="FinalVariablesInsideMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="corejava.finalExamples.FinalVariablesInsideMethods" />
       <module name="Algos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="corejava.finalExamples.*" />
+=======
+    <configuration name="ExceptionPropagation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.exceptionExample.ExceptionPropagation" />
+      <module name="Algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.exceptionExample.*" />
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -451,12 +494,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="FindAllAnagramsinaStringFindAllAnagramsinaString438" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.FindAllAnagramsinaStringFindAllAnagramsinaString438" />
       <module name="Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="string.*" />
+=======
+    <configuration name="ExecutorClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.Threading.evenodd.ExecutorClass" />
+      <module name="Algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.Threading.evenodd.*" />
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -464,12 +516,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="ImplementationClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.FunctionalInterface.ImplementationClass" />
       <module name="Algos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java8.FunctionalInterface.*" />
+=======
+    <configuration name="FindAllAnagramsinaStringFindAllAnagramsinaString438" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.FindAllAnagramsinaStringFindAllAnagramsinaString438" />
+      <module name="Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -477,19 +538,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="One" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="One" />
       <module name="Algos" />
+=======
+    <configuration name="NestedExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.exceptionExample.NestedExceptionHandling" />
+      <module name="Algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.exceptionExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="SortingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java8.Sorting.SortingMain" />
       <module name="Algos" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java8.Sorting.*" />
+=======
+    <configuration name="NestedExceptionHandlingIfExceptionOccursInCatchBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="corejava.exceptionExample.NestedExceptionHandlingIfExceptionOccursInCatchBlock" />
+      <module name="Algos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="corejava.exceptionExample.*" />
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -499,11 +581,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.Child" />
         <item itemvalue="Application.SortingMain" />
         <item itemvalue="Application.ImplementationClass" />
         <item itemvalue="Application.FinalVariablesInsideMethods" />
         <item itemvalue="Application.One" />
+=======
+        <item itemvalue="Application.ArrayPartitionI561" />
+        <item itemvalue="Application.ExecutorClass" />
+        <item itemvalue="Application.NestedExceptionHandlingIfExceptionOccursInCatchBlock" />
+        <item itemvalue="Application.NestedExceptionHandling" />
+        <item itemvalue="Application.ExceptionPropagation" />
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
       </list>
     </recent_temporary>
   </component>
@@ -586,6 +676,7 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State>
               <option name="CUSTOM_BOOLEAN_PROPERTIES">
                 <map>
@@ -593,6 +684,9 @@
                 </map>
               </option>
             </State>
+=======
+            <State />
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           </value>
         </entry>
       </map>
@@ -818,6 +912,14 @@
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
+=======
+          <url>file://$PROJECT_DIR$/src/main/java/algos/sorting/BubbleSort.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <url>file://$PROJECT_DIR$/src/main/java/algos/sorting/QuickSort.java</url>
           <line>29</line>
           <option name="timeStamp" value="67" />
@@ -839,7 +941,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algos/sorting/MergeSort.java</url>
+<<<<<<< HEAD
           <line>58</line>
+=======
+          <line>57</line>
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -848,6 +954,19 @@
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
+=======
+          <url>file://$PROJECT_DIR$/src/main/java/algos/sorting/MergeSort.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algos/sorting/MergeSort.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <url>file://$PROJECT_DIR$/src/main/java/companies/PropertyGuru.java</url>
           <line>25</line>
           <option name="timeStamp" value="81" />
@@ -894,7 +1013,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/algos/sorting/MergeSort.java</url>
+<<<<<<< HEAD
           <line>32</line>
+=======
+          <line>31</line>
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -913,6 +1036,14 @@
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
+=======
+          <url>file://$PROJECT_DIR$/src/main/java/binarytree/DepthFirstTraversal.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <url>file://$PROJECT_DIR$/src/main/java/dynamicProgramming/ClimbingStairs.java</url>
           <line>13</line>
           <option name="timeStamp" value="127" />
@@ -969,7 +1100,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/binarytree/BinaryTreeMaxDepth.java</url>
+<<<<<<< HEAD
           <line>39</line>
+=======
+          <line>40</line>
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -989,7 +1124,11 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/binarytree/BinaryTreePath.java</url>
+<<<<<<< HEAD
           <line>71</line>
+=======
+          <line>66</line>
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1003,6 +1142,19 @@
           <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
+=======
+          <url>file://$PROJECT_DIR$/src/main/java/binarytree/DepthFirstTraversal.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/binarytree/DepthFirstTraversal.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <url>file://$PROJECT_DIR$/src/main/java/algos/graphs/GraphRepresentation.java</url>
           <line>42</line>
           <option name="timeStamp" value="174" />
@@ -1313,6 +1465,19 @@
           <option name="timeStamp" value="301" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
+=======
+          <url>file://$PROJECT_DIR$/src/main/java/java8/FunctionalInterface/AnonymousInnerClasses/Implementation.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/java8/FunctionalInterface/AnonymousInnerClasses/Implementation.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <url>file://$PROJECT_DIR$/src/main/java/string/RemoveAllAdjacentDuplicatesInString1047.java</url>
           <line>6</line>
           <option name="timeStamp" value="307" />
@@ -1337,6 +1502,24 @@
           <option name="timeStamp" value="350" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
+=======
+          <url>file://$PROJECT_DIR$/src/main/java/corejava/singleton/SingletonSerialzation.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/corejava/singleton/SingletonDriverClass.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/corejava/singleton/SingletonDriverClass.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
           <url>file://$PROJECT_DIR$/src/main/java/corejava/hashing/ExecutionClass.java</url>
           <line>8</line>
           <option name="timeStamp" value="354" />
@@ -1557,6 +1740,7 @@
           <option name="timeStamp" value="422" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/src/main/java/java8/Sorting/SortingMain.java</url>
           <line>46</line>
           <option name="timeStamp" value="430" />
@@ -2022,6 +2206,11 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="637" />
+=======
+          <url>file://$PROJECT_DIR$/src/main/java/corejava/exceptionExample/ExceptionPropagation.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="423" />
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/string/UniqueMorseCodeWords804.java</url>

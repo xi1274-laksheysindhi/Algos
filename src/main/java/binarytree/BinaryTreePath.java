@@ -1,18 +1,19 @@
 package binarytree;
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 77b0f41326b97ab0f532f9b68d0f5eeba23d00c4
 import java.util.ArrayList;
 import java.util.List;
 
-class Node6
-{
+class Node6 {
     int data;
     Node6 left, right;
 
-    public Node6(int item)
-    {
+    public Node6(int item) {
         data = item;
         left = right = null;
     }
@@ -21,10 +22,10 @@ class Node6
 
 public class BinaryTreePath {
     Node6 root = null;
-   List<String> path = new ArrayList<>();
+    List<String> path = new ArrayList<>();
 
 
-    int pathPosition =0;
+    int pathPosition = 0;
     String s = "";
 
     List<String> findPath1(Node6 root) {
@@ -38,17 +39,17 @@ public class BinaryTreePath {
     void findpath(Node6 root, String so) {
 
         // Exit condition
-        if(root == null) {
+        if (root == null) {
             return;
         }
 
         // append to string
-        if(so != null) {
+        if (so != null) {
             so = "".equalsIgnoreCase(so) ? "" + root.data : so + "->" + root.data;
         }
 
         // when come to leaf node add to list
-        if(root.left == null && root.right == null) {
+        if (root.left == null && root.right == null) {
 
             path.add(so);
 
@@ -60,7 +61,6 @@ public class BinaryTreePath {
         findpath(root.left, so);
         findpath(root.right, so);
     }
-
 
 
     public static void main(String[] args) {
