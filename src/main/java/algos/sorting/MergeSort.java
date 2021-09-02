@@ -17,6 +17,7 @@ public class MergeSort {
         int[] tempLeft  = new int[middle-low+1];
         int[] tempRight = new int[high-middle];
 
+
         for(int i = 0; i < middle-low+1;i++) {
             tempLeft[i] = arr[low+i];
         }

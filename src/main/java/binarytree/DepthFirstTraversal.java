@@ -3,36 +3,36 @@ package binarytree;
 public class DepthFirstTraversal {
 
     Node root;
-
+    // Left Root Right
     public static void inorderTraversal(Node node) {
         if(node == null) {
             return;
         }
-
         inorderTraversal(node.leftNode);
-
         System.out.println(node.value);
         inorderTraversal(node.rightNode);
 
-
-
     }
-
+    // Root Left Right
     public void preorderTraversal(Node node) {
-
         if(node == null) {
             return;
         }
         System.out.println(node.value);
-
         preorderTraversal(node.leftNode);
         preorderTraversal(node.rightNode);
 
 
     }
 
-
-    public void postorderTraversal() {
+    //  Left Right Root
+    public void postorderTraversal(Node node) {
+        if(node == null) {
+            return;
+        }
+        postorderTraversal(node.leftNode);
+        postorderTraversal(node.rightNode);
+        System.out.println(node.value);
 
     }
 
@@ -60,7 +60,7 @@ public class DepthFirstTraversal {
         depthFirstTraversal.root.rightNode.leftNode = nodeRightLeft;
         depthFirstTraversal.root.rightNode.rightNode = nodeRightRight;
         //depthFirstTraversal.inorderTraversal(depthFirstTraversal.root);
-        //depthFirstTraversal.postorderTraversal();
-        depthFirstTraversal.preorderTraversal(depthFirstTraversal.root);
+        depthFirstTraversal.postorderTraversal(depthFirstTraversal.root);
+        //depthFirstTraversal.preorderTraversal(depthFirstTraversal.root);
     }
 }

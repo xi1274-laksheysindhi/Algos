@@ -7,15 +7,22 @@ package corejava.finalExamples;
 public class FinalVariablesInsideMethods {
 
     public static void main(String[] args) {
-        /*final FinalVariablesInsideMethods f;
+        final FinalVariablesInsideMethods f;
         final int age;
-        int number = 10;
+         int number = 10;
+        //number =20;
         System.out.println("");
-        age = 2;
-        age =3;
-        number =20;
-        System.out.println(age);*/
 
+        age = 2;
+        //age =3;
+       // number =20;
+        System.out.println(age);
+
+    }
+
+    public void test() {
+        final int a;
+        a = 3;
     }
 
 }

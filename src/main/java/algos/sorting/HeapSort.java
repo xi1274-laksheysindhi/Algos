@@ -1,6 +1,6 @@
 package algos.sorting;
 
-//
+//Time Complexity: Time complexity of heapify is O(Logn). Time complexity of createAndBuildHeap() is O(n) and overall time complexity of Heap Sort is O(nLogn).
 public class HeapSort {
 
     private static int[] sort(int[] input) {
@@ -44,7 +44,7 @@ public class HeapSort {
 
 
     public static void main(String[] args) {
-        int[] input = {5, 7, 3, 12, 11, 2, 1};
+        int[] input = {5, 7, 3, 12, 11, 2, 1, 8, 14};
         System.out.println(sort(input));
     }
 }

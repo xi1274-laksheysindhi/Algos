@@ -1,6 +1,15 @@
 package algos.sorting;
 
 
+/*
+Worst and Average Case Time Complexity: O(n*n). Worst case occurs when array is reverse sorted.
+
+Best Case Time Complexity: O(n). Best case occurs when array is already sorted.
+
+Auxiliary Space: O(1)
+
+Boundary Cases: Bubble sort takes minimum time (Order of n) when elements are already sorted.
+ */
 public class BubbleSort {
     private static int[] sort(int[] input) {
         for (int j = 0; j < input.length; j++) {

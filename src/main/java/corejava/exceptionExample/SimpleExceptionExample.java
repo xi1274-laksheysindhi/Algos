@@ -1,6 +1,5 @@
 package corejava.exceptionExample;
 
-import javax.xml.bind.JAXBException;
 /*
 The JVM firstly checks whether the exception is handled or not. If exception is not handled, JVM provides a default exception handler that performs the following tasks:
 
@@ -35,13 +34,14 @@ public class SimpleExceptionExample {
 
             System.out.println("before exception");
 
-            throw new JAXBException("");
+            throw new Exception("");
             //as s = null unchecked exception will be thrown so before exception line will be printed but not after exception
             /*s.length();
 
             System.out.println("after exception");*/
 
-        } catch (JAXBException e) {
+        } catch (Exception
+                e) {
 
             String s = null;
             s.length();

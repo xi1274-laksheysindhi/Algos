@@ -41,9 +41,9 @@ public class Implementation {
         interfaceWithMultipleAbstactMethods.m2();*/
 
         Parentclass p = new Parentclass() {
-            /*public void m1() {
+            public void m1() {
                 System.out.println("Child anonymous Class");
-            }*/
+            }
         };
 
         p.m1();

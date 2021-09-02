@@ -6,8 +6,7 @@ package binarytree;
     int data;
     Node2 left, right;
 
-    public Node2(int item)
-    {
+    public Node2(int item) {
         data = item;
         left = right = null;
     }

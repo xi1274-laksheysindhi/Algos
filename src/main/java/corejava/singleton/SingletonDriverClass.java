@@ -2,6 +2,8 @@ package corejava.singleton;
 
 
 import java.io.*;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
 
 public class SingletonDriverClass {
 
@@ -50,6 +52,21 @@ public class SingletonDriverClass {
                 + instance1.hashCode());
         System.out.println("instance2 hashCode:- "
                 + instance2.hashCode());
-
+        // breaking singleton nature of singleton class
+        try {
+            Constructor<?> declaredConstructor = Class.forName("corejava.singleton.SingletonExample").getDeclaredConstructor();
+            declaredConstructor.setAccessible(true);
+            declaredConstructor.newInstance();
+        } catch (NoSuchMethodException e) {
+            e.printStackTrace();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
+        } catch (InvocationTargetException e) {
+            e.printStackTrace();
+        }
     }
 }

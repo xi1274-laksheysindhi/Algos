@@ -20,9 +20,16 @@ public class ImplementationClass {
       };
         System.out.println(exampleFIWithReturnType.length("lakshey"));*/
 
-     ExampleFIWithReturnType exampleFIWithReturnType = (i,j) -> {
-         return i+j;
+//     ExampleFIWithReturnType exampleFIWithReturnType = (i,j) -> {
+//         return i+j;
+//     };
+     ExampleFIWithReturnType exampleFIWithReturnType2 = new ExampleFIWithReturnType() {
+            public int add(int i, int j) {
+                return i+j;
+            }
      };
-        System.out.println(exampleFIWithReturnType.add(10,12));
+
+
+        System.out.println(exampleFIWithReturnType2.add(10,12));
     }
 }
